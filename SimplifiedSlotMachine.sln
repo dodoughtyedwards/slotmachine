@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplifiedSlotMachine", "SimplifiedSlotMachine\SimplifiedSlotMachine.csproj", "{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplifiedSlotMachine.Tests", "SimplifiedSlotMachine.Tests\SimplifiedSlotMachine.Tests.csproj", "{B33F3AA1-3361-40CA-9A69-261D45D83393}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E} = {3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA0300AD-AD7F-4C4C-878A-E75C975369AF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1186A2-41D1-4BE7-BA6A-F5B59CF5F47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33F3AA1-3361-40CA-9A69-261D45D83393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33F3AA1-3361-40CA-9A69-261D45D83393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33F3AA1-3361-40CA-9A69-261D45D83393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33F3AA1-3361-40CA-9A69-261D45D83393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBC40192-1EC1-44CD-B8BB-9019948DF582}
+	EndGlobalSection
+EndGlobal
